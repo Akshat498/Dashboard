@@ -24,7 +24,10 @@
                         lightDarkBlue: "#151940",
                         blue: "#12123A",
                         skyBlue: "#62C9CC",
-                        grey: "#B8B9C5"
+                        darkBlue:"#111131",
+                        grey: "#B8B9C5",
+                        ultraGrey: "#8A8C9F",
+                        sky: "#1D2A4D",
                     },
                     fontFamily: {
 
@@ -106,47 +109,40 @@
             </div>
         </nav>
         <div class="flex w-full">
-            <div class=" bg-lightDarkBlue border border-lightBlue  w-72 pt-3.5 max-w-[272px]  ">
-                <div>
-                    <div
-                        class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group ">
-                        <img src="./assets/image/svg/fluent.svg" alt="">
-                        <span class="text-grey group-hover:text-white">Timeline</span>
-                    </div>
-                    <div
-                        class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group">
-                        <img src="./assets/image/svg/mingcute.svg" alt="">
-                        <span class="text-grey group-hover:text-white">Graphics</span>
-                    </div>
-                    <div
-                        class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group">
-                        <img src="./assets/image/svg/portpolio.svg" alt="">
-                        <span class="text-grey group-hover:text-white">Portfolio</span>
-                    </div>
+            <div class=" bg-lightDarkBlue border border-lightBlue h-[720px]  w-72 pt-3.5    ">
+                <div class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group ">
+                    <img src="./assets/image/svg/fluent.svg" alt="">
+                    <span class="text-grey group-hover:text-white">Timeline</span>
                 </div>
-
-
-                <div class="justify-end placeholder:flex-col min-h-[500px] ">
+                <div class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group">
+                    <img src="./assets/image/svg/mingcute.svg" alt="">
+                    <span class="text-grey group-hover:text-white">Graphics</span>
+                </div>
+                <div class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group">
+                    <img src="./assets/image/svg/portpolio.svg" alt="">
+                    <span class="text-grey group-hover:text-white">Portfolio</span>
+                </div>
+                <div class=" min-h-[500px] flex flex-col justify-end">
                     <div
-                        class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group">
+                        class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-[226px] mb-2 ms-7 px-4 rounded-sm group">
                         <img src="./assets/image/svg/question.svg" alt="">
                         <span class="text-grey group-hover:text-white">Help</span>
                     </div>
-
                     <div
-                        class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group">
+                        class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-[226px] mb-2 ms-7 px-4 rounded-sm group">
                         <img src="./assets/image/svg/logout.svg" alt="">
-                        <span class="text-grey group-hover:text-white">Logout</span>
+                        <span class="text-grey group-hover:text-white">Layout</span>
                     </div>
                 </div>
             </div>
 
-            <div class="w-full max-w-[740px]">
+            <div class=" px-5 w-6/12">
                 <div class="flex justify-between w-full">
                     <div class="flex gap-4 ml-4 mt-4">
                         <p class="font-medium text-2xl text-white">Ferrominera Orinoco</p>
 
-                        <button class="font-normal text-sm text-skyBlue px-4 py-1 bg-[#1D2A4D] rounded-full">Iron
+                        <button
+                            class="font-normal text-sm text-skyBlue px-4 py-1 bg-sky rounded-full hover:bg-skyBlue hover:text-white">Iron
                             producer</button>
                     </div>
                     <div>
@@ -154,25 +150,28 @@
                     </div>
                 </div>
 
-                <div class="flex flex-wrap mt-4">
-                    <div class="w-4/12">
-                        <div class="card-1 max-w-[236px] bg-lightDarkBlue py-5 rounded-xl ml-4 pl-4">
-                            <p class="font-medium text-2xl max-w-[193.17px] text-skyBlue">Working Capital Loan</p>
+                <div class="flex flex-wrap mt-4 ">
+                    <div class="w-full md:w-6/12 lg:w-4/12 ">
+                        <div
+                            class="card-1  bg-lightDarkBlue py-5 rounded-xl ml-4 pl-4  flex flex-col justify-center hover:scale-110 ">
+                            <p class="font-medium text-2xl max-w-[193.17px] text-skyBlue ">Working Capital Loan</p>
 
                             <p class="text-sm font-normal text-grey pt-1 ">Type of instrument</p>
                         </div>
                     </div>
 
-                    <div class="w-4/12">
-                        <div class="card-2 max-w-[236px] py-9 bg-lightDarkBlue rounded-xl pl-6">
+                    <div class="w-full md:w-6/12 lg:w-4/12">
+                        <div
+                            class="card-2  py-9 bg-lightDarkBlue rounded-xl pl-6 flex flex-col justify-center ml-4 hover:scale-110">
                             <p class="text-2xl  font-medium text-skyBlue">16.00%</p>
 
                             <p class="text-grey text-sm font-normal pt-1">Interest rate</p>
                         </div>
                     </div>
 
-                    <div class="w-4/12">
-                        <div class="card-3 max-w-[236px] bg-lightDarkBlue py-8 rounded-xl ml-4 pl-4">
+                    <div class="w-full md:w-6/12 lg:w-4/12">
+                        <div
+                            class="card-3  bg-lightDarkBlue py-8 rounded-xl ml-4 pl-4 flex flex-col justify-center hover:scale-110">
                             <p class="font-medium text-2xl max-w-[193.17px] text-skyBlue">$ 5,565,099.00</p>
 
                             <p class="text-sm font-normal text-grey pt-1 ">Total amount</p>
@@ -187,8 +186,16 @@
 
                         <p class="text-base font-normal text-skyBlue">How does it works?</p>
                     </div>
+                    <div class="flex justify-between">
+                        <p class="font-normal text-sm text-ultraGrey pt-5">01/08/2023</p>
 
-                    <p class="font-normal text-sm text-grey pt-5">01/08/2023</p>
+                        <p class="font-normal text-sm text-ultraGrey pt-5">30/08/2023</p>
+                    </div>
+
+                    <div class=" bg-lightBlue rounded-full h-3 mx-5 mt-2 mb-2">
+                        <div class="bg-skyBlue h-3 rounded-full flex justify-center items-center" style="width: 40%;">
+                        </div>
+                    </div>
 
                     <div class="flex justify-between">
                         <p class="font-normal text-base text-white ">$10.00</p>
@@ -201,54 +208,54 @@
 
                         <p class="font-normal text-sm text-grey">Credit performance (DDC)</p>
                     </div>
-                    <div class="flex">
-                        <div class="w-4/12  ">
+                    <div class="flex flex-wrap mt-8">
+                        <div class="w-full lg:w-6/12 xl:w-4/12  ">
                             <div class="flex ">
-                                <img src="/assets/image/svg/Frame 1.svg" alt="">
+                                <img class="hover:scale-110" src="/assets/image/svg/Frame 1.svg" alt="">
                                 <div class="pl-3">
                                     <p class="font-normal text-sm text-white">Working Capital Loan</p>
 
-                                    <p class="font-normal text-sm text-grey">Type of instrument</p>
+                                    <p class="font-normal text-sm text-ultraGrey">Type of instrument</p>
                                 </div>
                             </div>
 
                             <div class="flex mt-5">
-                                <img src="/assets/image/svg/Frame 2.svg" alt="">
+                                <img class="hover:scale-110" src="/assets/image/svg/Frame 2.svg" alt="">
                                 <div class="pl-3">
                                     <p class="font-normal text-sm text-white">$ 5565099.00</p>
 
-                                    <p class="font-normal text-sm text-grey">Total amount</p>
+                                    <p class="font-normal text-sm text-ultraGrey">Total amount</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-4/12  ">
+                        <div class="w-full lg:w-6/12 xl:w-4/12  ">
                             <div class="flex ">
-                                <img src="/assets/image/svg/Frame 3.svg" alt="">
+                                <img class="hover:scale-110" src="/assets/image/svg/Frame 3.svg" alt="">
                                 <div class="pl-3">
                                     <p class="font-normal text-sm text-white">Pantera Exchange</p>
 
-                                    <p class="font-normal text-sm text-grey">Transmitter</p>
+                                    <p class="font-normal text-sm text-ultraGrey">Transmitter</p>
                                 </div>
                             </div>
 
                             <div class="flex mt-5">
-                                <img src="/assets/image/svg/Frame 4.svg" alt="">
+                                <img class="hover:scale-110" src="/assets/image/svg/Frame 4.svg" alt="">
                                 <div class="pl-3">
                                     <p class="font-normal text-sm text-white">Working Capital Loan</p>
 
-                                    <p class="font-normal text-sm text-grey">Type of instrument</p>
+                                    <p class="font-normal text-sm text-ultraGrey">Type of instrument</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-4/12  ">
+                        <div class="w-full lg:w-6/12 xl:w-4/12  ">
                             <div class="flex ">
-                                <img src="/assets/image/svg/Frame 3.svg" alt="">
+                                <img class="hover:scale-110" src="/assets/image/svg/Frame 3.svg" alt="">
                                 <div class="pl-3">
                                     <p class="font-normal text-sm text-white">Pantera Exchange</p>
 
-                                    <p class="font-normal text-sm text-grey">Transmitter</p>
+                                    <p class="font-normal text-sm text-ultraGrey">Transmitter</p>
                                 </div>
                             </div>
                         </div>
@@ -269,25 +276,25 @@
                         rhoncus arcu mi quis. Arcu fringilla tincidunt mauris ut risus massa ipsum. Metus adipiscing sed
                         leo pharetra sed. Ut nulla libero vel ipsum adipiscing purus posuere. Dui pulvinar id enim
                         tristique habitasse lobortis. Aliquam et et orci ultrices interdum rhoncus arcu mi quis.</p>
-                    <div class="flex mt-3">
-                        <div class="w-4/12">
+                    <div class="flex flex-wrap mt-3">
+                        <div class="w-full lg:w-6/12 xl:w-4/12">
                             <div class="flex ">
-                                <img src="/assets/image/svg/Frame 10.svg" alt="">
+                                <img class="hover:scale-110" src="/assets/image/svg/Frame 10.svg" alt="">
                                 <div class="pl-3">
                                     <p class="text-white text-sm font-normal">Sales report</p>
 
-                                    <p class="text-sm font-normal text-grey">2022-2023</p>
+                                    <p class="text-sm font-normal text-ultraGrey">2022-2023</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-4/12">
+                        <div class="w-full lg:w-6/12 xl:w-4/12">
                             <div class="flex ">
-                                <img src="/assets/image/svg/pdf.svg" alt="">
+                                <img class="hover:scale-110" src="/assets/image/svg/pdf.svg" alt="">
                                 <div class="pl-3">
                                     <p class="text-white text-sm font-normal">Orinoco Ferrominera wag...</p>
 
-                                    <p class="text-sm font-normal text-grey">2022-2023</p>
+                                    <p class="text-sm font-normal text-ultraGrey">2022-2023</p>
                                 </div>
                             </div>
                         </div>
@@ -297,12 +304,15 @@
             </div>
 
             <div class="right-bar w-full max-w-[360px] ml-4 ">
-                <button class="font-medium text-base text-skyBlue  bg-[#1A2449] px-7 py-3 rounded-xl mt-3">Back</button>
-
-                <div class="part-1 max-w-[360px] border border-[#243E61] px-4 py-4 mt-8">
+                <div class="w-3/12">
+                    <button
+                        class="font-medium text-base text-skyBlue  bg-sky px-7 py-3 rounded-xl mt-3  hover:bg-skyBlue hover:text-white">Back</button>
+                </div>
+                <div
+                    class="part-1  border border-[#243E61] px-4 py-4 mt-8 bg-gradient-to-r from-[#12123A29]  to-[#349FFF29] ... ">
                     <div class="flex">
-                        <img src="/assets/image/svg/question-mark.svg" alt="">
-                        <div>
+                        <img class="hover:scale-110" src="/assets/image/svg/question-mark.svg" alt="">
+                        <div class="ml-3">
                             <p class="font-normal text-base text-white  ">Enter Amount to Invest</p>
                             <p class="font-normal text-base text-grey">Invest</p>
                         </div>
@@ -313,12 +323,12 @@
                         <img src="/assets/image/svg/dollar.svg" alt="">
                     </div>
 
-                    <div class="flex justify-between border-b-[#617794]  border-b-[1px] py-3">
+                    <div class="flex justify-between border-b-[#617794]  border-b py-3">
                         <p class="font-normal text-sm text-white ">Net Income</p>
 
                         <p class="font-bold text-sm text-white">$00.00</p>
                     </div>
-                    <div class="flex justify-between mt-2  border-b-[#617794]  border-b-[1px] py-3">
+                    <div class="flex justify-between mt-2  border-b-[#617794]  border-b py-3">
                         <p class="font-normal text-sm text-white ">Maximum investment per user</p>
 
                         <p class="font-bold text-sm text-white">$ 5565099.00</p>
@@ -332,12 +342,12 @@
                     </div>
 
                     <button
-                        class="font-medium text-base py- rounded-lg px-28 py-4  text-white bg-skyBlue mt-6  hover:bg-white hover:text-skyBlue">Invest
+                        class="font-medium text-base  rounded-lg px-28 py-4  text-white bg-skyBlue mt-6  hover:bg-white hover:text-skyBlue">Invest
                         now</button>
                 </div>
-                <div class="part-2 max-w-[360px] bg-[#192145] py-4 px-5 mt-5 rounded-lg">
+                <div class="part-2  bg-[#192145] py-4 px-5 mt-5 rounded-lg">
                     <p class="font-medium text-xl text-white">Company Gallery</p>
-                    <div class="photo-slider">
+                    <div class="photo-slider pt-3">
                         <div>
                             <img class="rounded-md" src="./assets/image/Rectangle 45.png" alt="slider-pic-1">
                         </div>
@@ -359,6 +369,32 @@
             </div>
         </div>
     </section>
+
+    <footer class="bg-darkBlue">
+        <div class="flex flex-wrap justify-between">
+            <div class="w-5/12">
+                <div class=" text-grey text-sm font-normal flex justify-end py-6">
+                    © Copyright 2021 Pantera | All rights reserved.
+                </div>
+            </div>
+            <div class="w-4/12">
+                <div class="flex justify-center my-3 gap-4">
+                    <span class="  ">
+                        <a href=""> <img src="./assets/image/svg/Group 34.svg" alt=""> </a>
+                    </span>
+                    <span>
+                        <a href=""><img src="./assets/image/insta.png" alt=""></a>
+                    </span>
+                    <span>
+                        <a href=""> <img src="./assets/image/svg/twit.svg" alt=""> </a>
+                    </span>
+                    <span>
+                       <a href=""><img src="./assets/image/svg/link.svg" alt=""></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- nav-js -->
     <script>
